@@ -1,0 +1,2 @@
+# calculo
+comprobación de axiomas
