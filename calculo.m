@@ -1,6 +1,6 @@
 % Octave Script
-% Title                :Clasificacion de los números
-% Description          :Script para recordar conceptos de números
+% Title                :Clasificacion de los nÃºmeros
+% Description          :Script para recordar conceptos de nÃºmeros
 % Author               :Angelica Arelllano Vilchiz
 % Date                 :202123514    
 % Version              :1
@@ -8,15 +8,15 @@
 %		                   :octave>ClasificacionNumeros
 % Notes                :Requiere aplicacion octave, usar la linea de comandos
 %                      :https://octaveintro.readthedocs.io/en/latest/index.html
-
+% Esta ctividad tiene como finalidad reforzar los conocimientos adquiridos en las clases antes abordadas mediante la comprobacion de las formulas de las propiedades de los acciomas
 clear
 c_numeros_Naturales =  '?= {1, 2, 3, ...n}si n > 0';
 c_numeros_Enteros = '?= {-n..., -2, -1, 0, 1, 2...n}';
-c_numero_Racionales= '?= {m/n dónde m,n ?? n ? 0}';
+c_numero_Racionales= '?= {m/n dÃ³nde m,n ?? n ? 0}';
 c_numero_Irracionales = '? = {?n que no puede ser expresada como ? todas las raices que no son exactas}'
 c_numeros_Reales = '?= {?, ? ? ?}';
 
-% Propiedades de los números, sean a,b,c,d,e ??
+% Propiedades de los nÃºmeros, sean a,b,c,d,e ??
 
 %Propiedades de ?(Cerradura)
 p_cerradura = 'a + b ??';
@@ -85,7 +85,7 @@ a=6;
 %Adicion inversa
 a+(-a)
 
-% Inverso multiplicativo o recíproco
+% Inverso multiplicativo o recÃ­proco
 p_inversoM = 'a ( 1/a ) = 1';
 a=2;
 %Producto inverso
@@ -96,10 +96,10 @@ p_transitiva = 'si a > b y b > c | a > c ';
 p_transitiva2 = 'si a = b y b = c | a = c ';
 
 
-% Tricotomia (raíz del alebra) siempre se pueden comparar
+% Tricotomia (raÃ­z del alebra) siempre se pueden comparar
 p_tricotomia = 'a > b';
 p_tricotomia2 = 'a = b';
 p_tricotomia3 = 'a < b';
 
-% signos de agrupación
+% signos de agrupaciÃ³n
 s_agrupacion = '{ [ ( ) ] }';
